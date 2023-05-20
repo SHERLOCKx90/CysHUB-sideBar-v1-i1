@@ -1,6 +1,9 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 import Home from './components/Home'
+import DashBoard from './components/Dashboard'
+import EditProfile from './components/EditProfile'
+
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -16,6 +19,8 @@ const App = () => {
     <>
       <GlobalStyle />
       <Home />
+      <DashBoard />
+      <EditProfile />
     </>
 
   )

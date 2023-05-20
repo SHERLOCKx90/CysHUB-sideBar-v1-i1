@@ -1,7 +1,7 @@
 import React from 'react'
 import SideBar from './subs/SideBar'
 import styled from 'styled-components'
-import Card from './Card'
+import Card from './subs/Card'
 
 const Container = styled.div`
 ${'' /* border:1px solid #fff; */}
@@ -11,10 +11,15 @@ justify-content: space-between;`
 
 const CardArray = styled.div`
 display: flex;
-margin: 0 auto;`
+margin: 0 auto;
+border:1px solid #fff;
+padding: 1rem;`
 
 const SideContain = styled.div`
-${'' /* border:1px solid #fff; */}
+border:1px solid #fff;
+display: flex;
+flex-direction: column;
+height: 100vh;
 `
 
 

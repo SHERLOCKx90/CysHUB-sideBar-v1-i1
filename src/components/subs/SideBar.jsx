@@ -77,11 +77,11 @@ const SideBar = () => {
     return (
         <Container>
             <Logo>
-                <img src="cyscom-logo.svg" alt="logo" />
+                <img src="../../cyscom-logo.svg" alt="logo" />
             </Logo>
             <Profile>
                 <ProfImg>
-                    <img src="profile.svg" alt="logo" />
+                    <img src="../../profile.svg" alt="logo" />
                 </ProfImg>
                 <ProfData>
                     <Header>John Doe</Header>
